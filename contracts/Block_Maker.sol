@@ -109,6 +109,8 @@ contract Block_maker {
         transactions[transaction_id - 1].validated = true;
     }
 
+
+    //Randomly generates a number and assigns new coins based upon result
     function newSpin() public {
         uint256 randomNumber = uint256(
             keccak256(
