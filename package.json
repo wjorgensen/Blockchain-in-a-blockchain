@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "hardhat": "^2.17.4"
+  },
+  "name": "blockchain-in-a-blockchain",
+  "description": "Building a blockchain using solidity so you can run a blockchain inside of a blockchain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "mocha": "^10.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wjorgensen/Blockchain-in-a-blockchain.git"
+  },
+  "author": "Wezabis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wjorgensen/Blockchain-in-a-blockchain/issues"
+  },
+  "homepage": "https://github.com/wjorgensen/Blockchain-in-a-blockchain#readme"
+}
